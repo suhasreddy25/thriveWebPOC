@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="28168" started-at="2021-08-31T12:27:28Z" finished-at="2021-08-31T12:27:56Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="28168" started-at="2021-08-31T12:27:28Z" finished-at="2021-08-31T12:27:56Z">
+      <class name="com.tests.ThriveTestWeb">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.tests.ThriveTestWeb@1b06cab]" name="beforeSuite" is-config="true" duration-ms="21" started-at="2021-08-31T12:27:28Z" finished-at="2021-08-31T12:27:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="initialization()[pri:0, instance:com.tests.ThriveTestWeb@1b06cab]" name="initialization" is-config="true" duration-ms="8720" started-at="2021-08-31T12:27:28Z" finished-at="2021-08-31T12:27:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="unsuccessful_Login()[pri:0, instance:com.tests.ThriveTestWeb@1b06cab]" name="unsuccessful_Login" duration-ms="5473" started-at="2021-08-31T12:27:37Z" finished-at="2021-08-31T12:27:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unsuccessful_Login -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.tests.ThriveTestWeb@1b06cab]" name="tearDown" is-config="true" duration-ms="3" started-at="2021-08-31T12:27:42Z" finished-at="2021-08-31T12:27:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=unsuccessful_Login status=SUCCESS method=ThriveTestWeb.unsuccessful_Login()[pri:0, instance:com.tests.ThriveTestWeb@1b06cab] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="successful_Login()[pri:1, instance:com.tests.ThriveTestWeb@1b06cab]" name="successful_Login" duration-ms="12767" started-at="2021-08-31T12:27:42Z" finished-at="2021-08-31T12:27:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successful_Login -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.tests.ThriveTestWeb@1b06cab]" name="tearDown" is-config="true" duration-ms="1" started-at="2021-08-31T12:27:55Z" finished-at="2021-08-31T12:27:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=successful_Login status=SUCCESS method=ThriveTestWeb.successful_Login()[pri:1, instance:com.tests.ThriveTestWeb@1b06cab] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.tests.ThriveTestWeb@1b06cab]" name="quit" is-config="true" duration-ms="1165" started-at="2021-08-31T12:27:55Z" finished-at="2021-08-31T12:27:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.tests.ThriveTestWeb -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
